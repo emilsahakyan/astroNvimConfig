@@ -20,6 +20,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<Tab>"] = { "%", desc = "Matching pair" },
+    -- Make
+    ["<leader>mk"] = { "<cmd>make -j`nproc` <cr>", desc = "Make -j Nproc" },
+    ["<leader>md"] = { "<cmd>make -j`nproc` debug <cr>", desc = "Make -j Nproc Debug" },
+    ["<leader>mc"] = { "<cmd>make clean <cr>", desc = "Make clean" },
   },
   t = {
     -- setting a mapping to false will disable it
