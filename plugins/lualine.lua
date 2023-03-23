@@ -16,8 +16,4 @@ return {
             },
         },
     },
-    {
-        "rebelot/heirline.nvim",
-        opts = function(opts) opts.statusline = nil end,
-    },
 }
