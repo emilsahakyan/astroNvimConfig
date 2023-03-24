@@ -1,7 +1,4 @@
 return {
-  -- You can also add new plugins here as well:
-  -- Add plugins, the lazy syntax
-  -- "andweeb/presence.nvim",
   {
     "ray-x/lsp_signature.nvim",
     event = "BufRead",
@@ -51,11 +48,6 @@ return {
         --move_cursor_key = nil, -- imap, use nvim_set_current_win to move cursor between current win and floating
       }
     end,
-  },
-  {
-    "folke/todo-comments.nvim",
-    event = "BufEnter",
-    config = function() require("todo-comments").setup() end,
   },
   {
     "theHamsta/nvim-dap-virtual-text",
