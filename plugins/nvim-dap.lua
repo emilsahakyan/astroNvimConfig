@@ -1,6 +1,6 @@
 return {
   "mfussenegger/nvim-dap",
-  config = function(plugin, opts)
+  config = function(_, _)
     local dap = require "dap"
     dap.adapters = {
       python = {
