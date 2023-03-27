@@ -3,7 +3,6 @@ return {
   opts = {
     ensure_installed = {
       "lua",
-      --"vim",
       "python",
       "verilog",
       "make",
@@ -13,7 +12,9 @@ return {
       "bash",
       "json",
       "perl",
-      "yaml" },
+      "yaml",
+      "vim"
+    },
 
     highlight = {
       -- `false` will disable the whole extension

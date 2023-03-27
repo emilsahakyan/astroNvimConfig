@@ -6,7 +6,6 @@ return {
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
       ensure_installed = {
-        --"lua_ls",
         "pyright",
         "clangd",
         "cmake",
@@ -22,6 +21,7 @@ return {
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
       ensure_installed = {
+        "lua-language-server",
         "prettier",
         "stylua",
         "pylint",
