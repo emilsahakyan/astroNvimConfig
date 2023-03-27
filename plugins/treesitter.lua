@@ -3,7 +3,7 @@ return {
   opts = {
     ensure_installed = {
       "lua",
-      "vim",
+      --"vim",
       "python",
       "verilog",
       "make",
