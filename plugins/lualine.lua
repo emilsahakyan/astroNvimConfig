@@ -4,7 +4,7 @@ return {
         event = "VeryLazy",
         opts = {
             options = {
-                theme = "nord",
+                --theme = "nord",
                 icons_enabled = true,
                 component_separators = "", -- { left = '', right = ''},
                 section_separators = { left = "", right = "" },

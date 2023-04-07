@@ -22,7 +22,7 @@ return {
     termguicolors = true,
 
     cursorline = true,
-    colorcolumn = "101",
+    --colorcolumn = "101",
     hidden = true,
     --scrolloff = 8, -- Number of lines to keep above and below the cursor
     --sidescrolloff = 8, -- Number of columns to keep at the sides of the cursor
