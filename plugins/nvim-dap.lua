@@ -65,5 +65,6 @@ return {
         },
       },
     }
+    dap.configurations.c = dap.configurations.cpp
   end,
 }
