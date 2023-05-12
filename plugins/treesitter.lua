@@ -21,14 +21,15 @@ return {
       enable = true,
       --disable = { "verilog" },
       disable = function(lang, bufnr)
-        return lang == "verilog" and vim.api.nvim_buf_line_count(bufnr) > 10000
+        return (lang == "verilog" and vim.api.nvim_buf_line_count(bufnr) > 10000)
+          or vim.api.nvim_buf_line_count(bufnr) > 100000
       end,
     },
     rainbow = {
       enable = true,
-      disable = { "html", "verilog" },
+      disable = { "html", "verilog", "xml" },
       extended_mode = false,
-      max_file_lines = nil,
+      max_file_lines = 50000,
     },
   },
 }
